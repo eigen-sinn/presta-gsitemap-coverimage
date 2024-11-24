@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <module>
     <name>gsitemap</name>
-    <displayName><![CDATA[Google sitemap]]></displayName>
+    <displayName><![CDATA[Google sitemap coverimages]]></displayName>
     <version><![CDATA[4.4.1]]></version>
-    <description><![CDATA[Generate your Google sitemap file]]></description>
-    <author><![CDATA[PrestaShop]]></author>
+    <description><![CDATA[Generate your Google sitemap file with only cover images]]></description>
+    <author><![CDATA[EigenSinn forked from PrestaShop]]></author>
     <tab><![CDATA[seo]]></tab>
     <is_configurable>1</is_configurable>
     <need_instance>0</need_instance>

@@ -473,9 +473,11 @@ class Gsitemap extends Module
                         Context::getContext()->shop->domain . Context::getContext()->shop->physical_uri . Context::getContext()->shop->virtual_uri,
                     ], $image_link) : $image_link;
 
-                    $images_product[] = [
+                    if((bool)$id_image['cover']) {
+                        $images_product[] = [
                         'link' => $image_link,
                     ];
+                    }
                 }
                 unset($image_link);
             }
